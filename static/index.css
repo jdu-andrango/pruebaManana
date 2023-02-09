@@ -1,0 +1,15 @@
+:root{
+    scroll-behavior: smooth;
+    --bg-img: url();
+    --text-color:rgb(81, 246, 27);
+    --bg-color:rgba(0, 0, 0, 0.744);
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container .row .col .lista{
+    
+}

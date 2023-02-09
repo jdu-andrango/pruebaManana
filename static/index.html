@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Automovil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <h1>automovil</h1>
+            <div class="col">
+                <form id="form">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">marca</label>
+                        <input type="text" class="form-control" name="marca" id="exampleInputEmail1"
+                            placeholder="Ingrese el nombre del marca" aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword2" class="form-label">modelo</label>
+                        <input type="text" class="form-control" name="modelo" placeholder="Ingrese el nombre del modelo"
+                            id="exampleInputPassword2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword3" class="form-label">Año de fabricacion</label>
+                        <input type="text" class="form-control" name="fecha"
+                            placeholder="Ingrese el Año de fabricacion " id="exampleInputPassword3">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword4" class="form-label">Numero de duenos</label>
+                        <input type="text" class="form-control" name="duenos" placeholder="Ingrese el Numero de duenos"
+                            id="exampleInputPassword4">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword5" class="form-label">costos</label>
+                        <input type="text" class="form-control" name="costos" placeholder="Ingrese el costo"
+                            id="exampleInputPassword5">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword5" class="form-label">choques</label>
+                        <input type="text" class="form-control" name="choques"
+                            placeholder="Ingrese el numero de choques" id="exampleInputPassword5">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">guardar</button>
+                </form>
+            </div>
+            <div class="col  ">
+
+                <ul id="automovilList">
+
+                </ul>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="static/index.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
